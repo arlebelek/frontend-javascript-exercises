@@ -1,6 +1,7 @@
 var expect    = require("chai").expect;
 var challenge = require("./challenge.js");
 
+
 describe("formLetter", function() {
   it("should be defined", function() {
     expect(challenge.formLetter).to.exist;
